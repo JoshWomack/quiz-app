@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section class="start-page js-start-page">
+        <h1 id="js-page-header">Quiz App</h1>
+        <p>
+          This is a quiz that will test whether you can guess the number.
+        </p>
+        <button id="js-start-quiz-button">Start Quiz</button>
+      </section>
+      <section class="question-page js-question-page js-hide-page">
+        <p id="js-current-score"></p>
+        <div class="question-div js-question-div">
+          <form id="js-question-form"></form>
+          <!-- <button id="js-finish-quiz-button">Finish Quiz</button> -->
+        </div>
+      </section>
+      <section class="results-page js-results-page js-hide-page">
+        <p id="js-results-page-p">This is the results page</p>
+        <button id="js-restart-quiz-button">Restart Quiz</button>
+      </section>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
